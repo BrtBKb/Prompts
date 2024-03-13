@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <script>
+        let userName = prompt("Who are you?");
+        if(userName === "Admin"){
+            let pass = prompt("password");
+            if(pass === "TheMaster"){
+                alert("Welcome");
+            } else if (pass == "" || pass == null){
+                    alert("cancel");
+                } else {
+                    alert("try again");
+                }
+            } else if (userName == "" || userName == null){
+                alert("cancel");
+            } else {
+                alert("I don't know you")
+            }
+        
+    </script>
+</body>
+</html>
